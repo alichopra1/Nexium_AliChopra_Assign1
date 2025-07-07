@@ -1,4 +1,9 @@
-export const quotes = [
+export interface Quote {
+  id: number;
+  text: string;
+}
+
+export const quotes: Quote[] = [
   { id: 1, text: "Start where you are. Use what you have. Do what you can." },
   { id: 2, text: "Dream big. Start small. Act now." },
   { id: 3, text: "Consistency is what transforms average into excellence." },
